@@ -1,6 +1,6 @@
 # Employee Management Console Application
 
-Application status: Base version.
+Application status: Main branch documentation updated.
 
 A .NET 8 console application demonstrating:
 
