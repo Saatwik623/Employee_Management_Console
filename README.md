@@ -1,7 +1,6 @@
 # Employee Management Console Application
 
-Application status: Feature implementation completed.
-
+Application status: Feature implementation completed and ready for review.
 A .NET 8 console application demonstrating:
 
 - CRUD operations using `List<Employee>` (the update operation edits name, email, and department)
