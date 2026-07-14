@@ -7,4 +7,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="EmployeeManagement.Core\EmployeeManagement.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="EmployeeManagement.Core\**" />
+    <Compile Remove="EmployeeManagement.Api\**" />
+    <Compile Remove="EmployeeManagement.Tests\**" />
+    <Compile Remove="EmployeeManagement.ApiClient\**" />
+    <EmbeddedResource Remove="EmployeeManagement.Core\**;EmployeeManagement.Api\**;EmployeeManagement.Tests\**;EmployeeManagement.ApiClient\**" />
+    <None Remove="EmployeeManagement.Core\**;EmployeeManagement.Api\**;EmployeeManagement.Tests\**;EmployeeManagement.ApiClient\**" />
+  </ItemGroup>
+
 </Project>
